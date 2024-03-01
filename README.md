@@ -11,23 +11,23 @@ The project utilized a dataset from Kaggle containing information on 793 custome
 
 ## Methodology
 
-For this project, I used Microsoft Excel for data transformation, analysis, and Visualization. Here's a brief overview of the methodology:
+For this project, I used Microsoft Excel for data transformation, analysis, and visualization. Here's a brief overview of the methodology:
 
 **1) Data Transformation:** Created new columns displaying the total monetary value spent, most recent order date, and total number of orders of each customer using pivot table. With the most recent order date available, we calculate the number of days since last order by using datedif function
 
 **2) Percentrank:** Created new columns for Percentrank values for Recency, Frequency, and Monetary Value to normalize these metrics.
 
-**3) Create RFM Score:** Calculated an RFM score based on the Percentrank values and created a new column for Percentrank.inc for the RFM score.
+**3) Create RFM Score:** Calculated the RFM score based on the Percentrank values. Created a new column for Percentrank.inc of the RFM score.
 
 **4) Customer Segmentation:** Created a new column for "Customer Segment" and segmented customers based on the RFM score using VLOOKUP.
 
-**5) Summary:** Summarizing the purchasing behavior of customers in each segment using pivot table.
+**5) Summary:** Summarized the purchasing behavior of customers in each segment using pivot table.
 
-**6) Visualization:** Created a pie chart displaying the count of customers in each segment and other visualizations explaining the purchasing behavior of csutomers in each segment.
+**6) Visualization:** Created a pie chart displaying the count of customers in each segment, and created other visualizations explaining the purchasing behavior of customers in each segment.
 
 ## Recommendations
 
-Based on the analysis, the following recommendations were made for marketing strategies:
+Based on the analysis, the following recommendations were made for the marketing strategies:
 
 **Top Customers:**
 
